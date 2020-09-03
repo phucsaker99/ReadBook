@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/home"
+        android:icon="@drawable/home_icon"
+        android:title="Home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/category_icon"
+        android:title="Thể loại"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/library"
+        android:icon="@drawable/library_icon"
+        android:title="Thư viện"
+
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/account_icon"
+        android:title="Tài khoản"
+        app:showAsAction="ifRoom"/>
+</menu>
